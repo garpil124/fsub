@@ -13,3 +13,9 @@ bash setup.sh
 bash systemd.sh
 ```
 # Pastikan config.py sudah terisi data yang diperlukan
+```
+OWNER_ID = int(os.environ.get('OWNER_ID', ''))
+    BOT_TOKEN = os.environ.get('BOT_TOKEN', '')
+    DATABASE_ID = int(os.environ.get('DATABASE_ID', ''))
+    MONGO_URL = os.environ.get('MONGO_URL', '')
+```
