@@ -12,3 +12,4 @@ bash setup.sh
 ```
 bash systemd.sh
 ```
+# Pastikan config.py sudah terisi data yang diperlukan
