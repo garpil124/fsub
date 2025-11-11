@@ -41,13 +41,13 @@ class Config:
         'Join first, then press the Try Again button.'
     )
 
-    OWNER_ID = int(os.environ.get('OWNER_ID', '7763935232'))
-    BOT_TOKEN = os.environ.get('BOT_TOKEN', '7783930401:AAFjVzlzhYV8LcK_H_c64dg3iQe3o_WusoU')
-    DATABASE_ID = int(os.environ.get('DATABASE_ID', '-1002549094524'))
-    MONGO_URL = os.environ.get('MONGO_URL', 'mongodb+srv://Hancock:Malik10_@hancock.vh4empi.mongodb.net/?retryWrites=true&w=majority&appName=Hancock')
+    OWNER_ID = int(os.environ.get('OWNER_ID', ''))
+    BOT_TOKEN = os.environ.get('BOT_TOKEN', '')
+    DATABASE_ID = int(os.environ.get('DATABASE_ID', ''))
+    MONGO_URL = os.environ.get('MONGO_URL', '')
 
-    API_ID = 29057224
-    API_HASH = 'da205c3d61724a1358a02f2f09305928'
+    API_ID = 
+    API_HASH = ''
     BOT_ID = BOT_TOKEN.split(':', 1)[0]
 
 
