@@ -18,7 +18,7 @@ class Config:
     MONGO_URL = os.environ.get('MONGO_URL', '')
 
     API_ID = 2040
-    API_HASH = 'b18441a1ff607e10a989891a5462e627'
+    API_HASH = 'b18441'
     BOT_ID = BOT_TOKEN.split(':', 1)[0]
 
 Config = Config()
