@@ -20,6 +20,6 @@ class Config:
     MONGO_URL = os.environ.get('MONGO_URL', 'mongodb+srv://fsub:zqtjy3zlzU2blIGk@cluster0.nikqwau.mongodb.net/fsub?retryWrites=true&w=majority')
 
     API_ID = 38471748
-    API_HASH = '3fec9eeb6468fbe2f7f1821cb6f48436
+    API_HASH = '3fec9eeb6468fbe2f7f1821cb6f48436'
 
 Config = Config()
