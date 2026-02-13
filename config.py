@@ -21,5 +21,7 @@ class Config:
 
     API_ID = 38471748
     API_HASH = '3fec9eeb6468fbe2f7f1821cb6f48436'
+    BOT_ID = BOT_TOKEN.split(':', 1)[0]
 
 Config = Config()
+
