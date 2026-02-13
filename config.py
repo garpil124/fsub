@@ -17,7 +17,7 @@ class Config:
     OWNER_ID = int(os.environ.get('OWNER_ID', '5944164836'))
     BOT_TOKEN = os.environ.get('BOT_TOKEN', '8266467068:AAG7PNYC1cbWbLgLyRLo7Fkuio2qYzaO8yg')
     DATABASE_ID = int(os.environ.get('DATABASE_ID', '-1003443158125'))
-    MONGO_URL = os.environ.get('MONGO_URL', 'mongodb+srv://fsub:zqtjy3zlzU2blIGk@cluster0.nikqwau.mongodb.net/fsub?retryWrites=true&w=majority')
+    MONGO_URL = os.environ.get('MONGO_URL', 'mongodb+srv://storegarfield076_db_user:O1HyQXg4abbmvJH8@cluster0.dzmqotw.mongodb.net/?retryWrites=true&w=majority)
 
     API_ID = 38471748
     API_HASH = '3fec9eeb6468fbe2f7f1821cb6f48436'
