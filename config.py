@@ -20,7 +20,7 @@ class Config:
     MONGO_URL = os.environ.get('MONGO_URL', 'mongodb+srv://storegarfield076_db_user:O1HyQXg4abbmvJH8@cluster0.dzmqotw.mongodb.net/?retryWrites=true&w=majority')
 
     API_ID = 38471748
-    API_HASH = '3fec9eeb6468fbe2f7f1821cb6f48436'
+    API_HASH = '8266467068:AAHFXI3UqFMxZXoAwHSu7WmUDyyNwZnXzWY'
     BOT_ID = BOT_TOKEN.split(':', 1)[0]
 
 Config = Config()
